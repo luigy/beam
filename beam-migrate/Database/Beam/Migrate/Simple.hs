@@ -7,6 +7,7 @@ module Database.Beam.Migrate.Simple
   , VerificationResult(..)
   , verifySchema
 
+  , autoMigrate
   , createSchema
 
   , module Database.Beam.Migrate.Actions
